@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CodeTurk TipBox</title>
+
+    <!--  CSS  -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet">
+    <!--  JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+    <script src="https://github.com/WalletConnect/walletconnect-monorepo/releases/download/1.6.2/web3-provider.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+          <div class="col-2"></div>
+
+          <div class="col-8 card card-shadow">
+            <h4 class="text-center mt-3">CodeTurk TipBox</h4>
+
+            <div class="row mt-3">
+              <div class="col-3">
+                <a id="btn-login" class="btn btn-outline-primary">Metamask</a>
+              </div>
+              <div class="col-6 d-flex justify-content-center">
+                <a id="btn-switch" class="btn btn-outline-warning"><i class="fas fa-exchange-alt">  BNB</i></a>
+                <a id="btn-switch" class="btn btn-outline-dark mx-auto"><i class="fas fa-exchange-alt">  ETH</i></a>
+                <a id="btn-switch" class="btn btn-outline-danger"><i class="fas fa-exchange-alt">  AVAX</i></a>
+              </div>
+              <div class="col-3 d-flex justify-content-end">
+                <a id="btn-logout" class="btn btn-outline-info">Logout</a>
+            </div>
+          </div>
+
+          <div class="row mt-3">
+              <div class="col-3">
+                <h6>Connect With</h6>
+              </div>
+              <div class="col-6 d-flex justify-content-center">
+                <h6>Select Network</h6>
+              </div>
+              <div class="col-3 d-flex justify-content-end">
+                <h6>Logout</h6>
+              </div>
+          </div>
+
+          <div class="row mt-2">
+            <div class="col-2"></div>
+            <div class="col-8">
+    
+              <div class="row mt-3">
+                <div class="col-3">
+                </div>
+                <div class="col-6 d-flex justify-content-center">
+    
+                  <img src="photo.jpeg" style="border-radius: 50%;height: 250px;width: 250px;object-fit: cover;">
+    
+                </div>
+                <div class="col-3 d-flex justify-content-end">
+                </div>
+            </div>
+    
+            
+            </div>
+            <div class="col-2"></div>
+          </div>
+
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+    
+              <div class="row mt-3 mb-4">
+                <div class="col-3">
+                </div>
+                <div class="col-6 d-flex justify-content-center">
+    
+                  <input type="text" id="tipa" value="0.02">
+                  <a class="btn btn-outline-dark">Send</a>
+    
+                </div>
+                <div class="col-3 d-flex justify-content-end">
+                </div>
+            </div>
+
+            
+
+            </div>
+    
+            </div>
+            <div class="row mt-4">
+              <div class="col-12 d-flex justify-content-start mb-3">
+                <a class="text-dark" href=""><i class="fab fa-3x fa-youtube"></i></a>
+                <a class="text-dark mx-auto" href="https://www.youtube.com/channel/UCyQkjVOsNgDYfSZCEOTmatw"><i class="fab fa-3x fa-twitter"></i></a>
+                <a class="text-dark" href=""><i class="fab fa-3x fa-github"></i></a>
+              </div>
+            <div class="col-2"></div>
+          </div>
+
+        </div>
+
+        <div class="col-2"></div>
+      </div>
+
+      
+
+    </div>
+
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
+</html>
